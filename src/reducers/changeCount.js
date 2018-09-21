@@ -1,5 +1,5 @@
-function changeCount(state = {
-  count: 0,
+export default function changeCount(state = {
+  count: 0
 }, action) {
   switch (action.type) {
     case 'INCREASE_COUNT':
